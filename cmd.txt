@@ -1,0 +1,8 @@
+javac src/CreateWhiteBoard.java
+javac src/JoinWhiteBoard.java
+
+java src.CreateWhiteBoard localhost 5555 test
+java src.JoinWhiteBoard localhost 5555 test
+
+java -jar CreateWhiteBoard.jar localhost 5555 test
+java -jar JoinWhiteBoard.jar localhost 5555 test
